@@ -18,8 +18,6 @@ function App() {
           <Boton>2</Boton>
           <Boton>3</Boton>
           <Boton>+</Boton>
-
-
         </div>
         <div className='fila'>
           <Boton>4</Boton>
