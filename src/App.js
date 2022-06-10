@@ -24,14 +24,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className='logo-contenedor'>
-        <img
-          src={logo}
-          className='logo'
-          alt='Logo'
-        />
-      </div>
       <div className='contenedor-calculadora'>
+
+        <div className='logo-contenedor'>
+          <img
+            src={logo}
+            className='logo'
+            alt='Logo'
+          />
+        </div>
+
         <Pantalla input={input} />
         <div className='fila'>
           <Boton manejarClic={agregarInput}>1</Boton>

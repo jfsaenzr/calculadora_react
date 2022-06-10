@@ -14,10 +14,9 @@ body {
 
 .logo-contenedor {
     width: 100%;
-    height: 50px;
     margin: 8px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -27,7 +26,7 @@ body {
 
 .contenedor-calculadora {
     width: 400px;
-    height: 620px;
+    height: 720px;
     padding: 14px;
     background-color: #99c9ff;
     border-radius: 20px;
